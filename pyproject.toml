@@ -7,12 +7,11 @@
 [project]
 name = "nlp"               # CUSTOM: Package distribution name (use lowercase and dashes).
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11,<3.13"
 version = "0.1.0"
 
 dependencies = [
     # REQ.DEPS: External packages used by the project code.
-    "datafun-toolkit", # WHY: Provides utilities for privacy-aware logging.
     "ipykernel",       # WHY: Provides the Python kernel used by Jupyter notebooks.
     "ipython",         # WHY: Enhanced interactive Python shell used by notebook kernels.
     "requests",        # WHY: Simple HTTP client for retrieving web pages and APIs.
